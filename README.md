@@ -1,7 +1,7 @@
 # Taller MLOps  – Despliegue de API IA con CI/CD y GitOps
 ## Por Juan Gonzalez Sanmiguel
 
-## 🔧 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **FastAPI** – API REST con predicción `/predict` y métricas `/metrics`
 - **scikit-learn** – Entrenamiento del modelo `model.pkl`
@@ -14,7 +14,7 @@
 
 ##  Cómo Probar: 
 
-## API Local
+ API Local
 
 ```bash
 cd 4/api
@@ -28,7 +28,7 @@ curl -X POST http://localhost:8000/predict \
   -H "Content-Type: application/json" \
   -d '{"data": [5.1, 3.5, 1.4, 0.2]}'
 
-## Pipeline CI/CD:
+### Pipeline CI/CD:
 
 
 Con cada push a main, GitHub Actions:
