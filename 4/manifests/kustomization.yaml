@@ -1,0 +1,8 @@
+resources:
+  - api-deployment.yaml
+  - loadtester-deployment.yaml
+  - prometheus-configmap.yaml
+  - prometheus-deployment.yaml
+  - grafana-configmap.yaml
+  - grafana-deployment.yaml
+  - grafana-service.yaml
